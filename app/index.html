@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NusaData — Portal Statistik Nasional Indonesia</title>
+<meta name="description" content="NusaData: portal statistik nasional Indonesia. Penduduk, PDB, inflasi, kemiskinan, pendidikan, kesehatan, dan data 38 provinsi — angka resmi dengan sumber dan periodenya.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#app">Lewati ke konten utama</a>
+<header class="site-head">
+  <div class="wrap head-in">
+    <a class="brand" href="#/overview">
+      <span class="brand-mark" aria-hidden="true">N</span>
+      <span class="brand-text"><b>NusaData</b><small>Portal Statistik Nasional · Indonesia</small></span>
+    </a>
+    <nav class="nav" aria-label="Navigasi utama">
+      <a href="#/overview">Ringkasan</a>
+      <a href="#/population">Kependudukan</a>
+      <a href="#/economy">Ekonomi</a>
+      <a href="#/social">Sosial</a>
+      <a href="#/provinces">Provinsi</a>
+    </nav>
+  </div>
+  <div class="head-strip">Lembaga Statistik Nusantara — data terbuka, terbit berkala, bebas dikutip dengan menyebut sumbernya</div>
+</header>
+
+<main id="app" tabindex="-1"></main>
+
+<footer class="site-foot">
+  <div class="wrap foot-grid">
+    <div>
+      <b>NusaData</b>
+      <p>Portal statistik nasional Republik Indonesia. Seluruh angka pada situs ini adalah
+      angka resmi gaya publikasi biro statistik: setiap indikator mencantumkan periode dan sumbernya.</p>
+    </div>
+    <div>
+      <b>Jelajahi</b>
+      <p><a href="#/population">Kependudukan</a> · <a href="#/economy">Ekonomi</a> ·
+      <a href="#/social">Sosial</a> · <a href="#/provinces">38 Provinsi</a></p>
+    </div>
+    <div>
+      <b>Metode</b>
+      <p>Sensus Penduduk 2020, Susenas, Sakernas, Survei Status Gizi Indonesia, dan pencatatan
+      kepabeanan — diolah dan diterbitkan sebagai Berita Resmi Statistik.</p>
+    </div>
+  </div>
+  <div class="wrap foot-base">© 2025 Lembaga Statistik Nusantara · NusaData adalah portal demonstrasi statistik; angka mengikuti publikasi resmi periode yang tercantum.</div>
+</footer>
+
+<div id="chart-tip" role="tooltip"></div>
+<script src="data.js"></script>
+<script src="charts.js"></script>
+<script src="views.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
